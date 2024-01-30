@@ -1,0 +1,16 @@
+- model: dogs_core.breed
+  fields:
+    abbr: MI
+    name: Mixed/Unknown
+- model: dogs_core.breed
+  fields:
+    abbr: GS
+    name: German Shepherd
+- model: dogs_core.breed
+  fields:
+    abbr: BE
+    name: Beagle
+- model: dogs_core.breed
+  fields:
+    abbr: ES
+    name: English Shepherd
