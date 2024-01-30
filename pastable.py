@@ -25,7 +25,7 @@ people = [
     ('Ada', 'Lovelace','Babbage calculator', '1815-12-10'),
     ('Larry', 'Page', 'Google', '1973-03-26'),
     ('Linus', 'Torvalds', 'Linux', '1969-12-28'),
-
+]
 
 airports = {
     'EWR': 'Newark',

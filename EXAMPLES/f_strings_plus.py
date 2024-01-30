@@ -3,6 +3,7 @@ name = "Guido"
 info = 2093
 result = 38293892
 
+print(f"Name is [{name:10s}]")  # < left justify (default for non-numbers), 10 is field width, s formats a string
 print(f"Name is [{name:<10s}]")  # < left justify (default for non-numbers), 10 is field width, s formats a string
 print(f"Name is [{name:>10s}]")  # > right justify
 print(f"Name is [{name:^10s}]")  # ^ center

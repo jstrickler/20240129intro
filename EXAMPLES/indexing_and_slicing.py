@@ -5,6 +5,7 @@ characters = "Roger", "Old Woman", "Prince Herbert", "Brother Maynard"
 
 phrase = "She turned me into a newt"
 
+#  SEQ[start:stop]   start is INclusive   stop is EXclusive
 print("pythons:", pythons)
 print("pythons[0]", pythons[0])  # First element
 print("pythons[5]", pythons[5])  # Sixth element
@@ -32,3 +33,11 @@ print("phrase[21:25]", phrase[21:25])
 print("phrase[21:]", phrase[21:])
 print("phrase[:10]", phrase[:10])
 print("phrase[::2]", phrase[::2])
+
+x = "29\u00B0"
+print(f"{x = }")
+print(f"{x[-1] = }")
+print(f"{ord(x[-1]) = }")
+print(f"{hex(ord(x[-1])) = }")
+
+

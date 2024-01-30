@@ -1,4 +1,5 @@
 name = "john jacob jingleheimer smith"
 
-# put your Python code here:
+pos = name.find('jacob')
 
+print("pos is", pos)
