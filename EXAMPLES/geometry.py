@@ -39,3 +39,7 @@ def square_area(side):
     :return: Area of square
     """
     return side ** 2
+
+# print(circle_area(45))
+# x = circle_area(10)
+# print(f"{x = }")
