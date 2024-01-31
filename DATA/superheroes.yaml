@@ -1,0 +1,98 @@
+
+---
+- name: Superman
+  real name: Kal-el
+  secret identity: Clark Kent
+  city: Metropolis
+  powers:
+    -   - x-ray vision
+        - can see through things
+    -   - flying
+        - can fly unaided
+    -   - heat vision
+        - can heat objects by looking at them
+    -   - super strength
+        - strength of many humans
+    -   - super speed
+        - can think and act at superhuman speed
+  enemies:
+     - General Zod
+     - Lex Luthor
+  
+- name: Wonder Woman
+  real name: Diana of Themyscira
+  secret identity: Diana Prince
+  city: Gateway City
+  powers:
+    -   - super strength
+        - strength of many humans
+    -   - super durability
+        - able to heal at a superhuman rate
+    -   - flying
+        - can fly unaided
+    -   - super speed
+        - can think and act at superhuman speed
+  enemies:
+    - Doctor Psycho
+    - Angle Man
+    - Hypnota
+  
+- name: Spider-Man
+  real name: Peter Parker
+  secret identity: Peter Parker
+  city: New York City
+  powers:
+    -   - wallclimbing
+        - ability to cling to surfaces
+    -   - super strength
+        - strength of many humans
+    -   - spider-sense
+        - precognition
+  enemies:
+    - Doctor Octopus
+    - Green Goblin
+  
+- name: Iron Man
+  real name: Tony Stark
+  secret identity: Tony Stark 
+  city: Los Angeles
+  powers: 
+    -   - flying
+        - can fly unaided
+    -   - armor
+        - super-intelligent armor
+  enemies:
+    - The Mandarin
+  
+- name: Deadpool
+  real name: Wade Winston Wilson
+  secret identity: Wade Winston Wilson
+  city: New York City
+  powers:
+        - - Regeneration
+          - Ability to regrow cells, body parts, etc.
+        - - Longevity
+          - He is effectively immortal
+        - - Martial arts
+          - Skilled in weapons of all types
+        - - super strength
+          - Super strength, durability, and agility
+  enemies:
+        - Madcap
+        - T-Ray
+        - Slayback
+
+- name: Captain Marvel
+  real name: Carol Susan Jane Danvers
+  secret identity: Carol Danvers
+  city: Lost Angeles
+  powers:
+    - - super strength
+      - Super strength, durability, and agility
+    - - super speed
+      - can think and act at superhuman speed
+    - - flying
+      - can fly unaided
+  enemies:
+    - Mystique
+    - Madcap

@@ -6,6 +6,8 @@ rx_forloop = re.compile(r'\bfor\b')
 for_count = 0
 
 for curr_dir, dir_list, file_list in os.walk('..'):
+    if '.git' in dir_list:
+        dir_list.remove('.git')  # don't search .git folder
     for file_name in file_list:
         if file_name.endswith('.py'):
             file_path = os.path.join(curr_dir, file_name)

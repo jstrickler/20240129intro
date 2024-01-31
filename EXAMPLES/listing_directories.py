@@ -2,11 +2,8 @@ import os
 
 DIRECTORY = '../DATA'
 
-for i, entry_name in enumerate(os.listdir(DIRECTORY)):
+for entry_name in os.listdir(DIRECTORY)[:9]:
     print(entry_name)
-    if i == 9:
-        break
-
 print('-' * 60)
 
 for i, entry in enumerate(os.scandir(DIRECTORY)):
