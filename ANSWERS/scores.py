@@ -7,7 +7,7 @@ with open("../DATA/testscores.dat") as scores_in:
         score = int(score)
         scores_by_student[name] = score
 
-for student, score in sorted(scores_by_student.items()):
+for student, score in scores_by_student.items():
     if score > 94:
         grade = 'A'
     elif score > 88:
