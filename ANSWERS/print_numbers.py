@@ -1,9 +1,8 @@
 import re
 
-num = re.compile(r"\b\d{3}-\d{4}\b")
-
 with open("../DATA/custinfo.dat") as f:
     for line in f:
-        if num.search(line):
-            print(line, end='')
+        m = re.search(r"\b\d{3}-\d{4}\b", line)
+        if m:
+            print(m.group(), line, end='')
 

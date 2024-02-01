@@ -1,0 +1,52 @@
+
+pat       "pat"    "spatter"   "pattern"  "expat"   "they had a spat over what to eat"
+
+p.t       "spittoon"   "pitot valve"   "sweet potato"   "keep to the right"
+
+p\.t    "...p.t..."
+
+p.\.t     
+
+p[aeiou]t     
+p[a-zA-Z]t
+p[a-z]t 
+p[a-zA-Z_0-9]t  
+
+p..t   
+
+[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+\d\d\d-\d\d-\d\d\d\d
+
+\d [0-9]
+\s [ \t\n\r\f]
+\w [a-zA-Z0-9_]   "word" character
+
+\d{3}-\d{2}-\d{4}
+
+#  {x}  {x,y}  {x,}
+#  ? + *
+
+p[aeiou]{2}t  
+p[aeiou]{1,2}t
+p[aeiou]{2,}t
+
+pa?t   {0,1}
+pa+t   {1,}
+pa*t   {0,}        a*    0 or more 'a' characters
+
+.*    universal match
+
+p.*t   
+
+^foo      "football"    NOT "bigfoot"
+bar$      "minibar"     NOT "laid bare"
+
+^\s*\d+\s*$   "123"   "    123"   "123   "    "   123   "
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+from card import Card
+from carddeck import CardDeck
+
+class JokerDeck(CardDeck):
+    def _make_deck(self):
+        super()._make_deck()
+        for num in range(1,3):
+            card = Card(f'JOKER{num}', f'JOKER{num}')
+            self._cards.append(card)
+
+if __name__ == "__main__":
+    j1 = JokerDeck()
+    j1.shuffle()
+    print(j1.cards)
+    print()
+    print(j1)
+    print(repr(j1))

@@ -9,7 +9,7 @@ voluptate velit esse cillum dolore U901 eu fugiat nulla pariatur.
 Excepteur sint occaecat A-110 cupidatat non proident, sunt in H-332 culpa qui 
 officia deserunt Y-45 mollit anim id est laborum"""
 
-pattern = r'[A-Z]-\d{2,3}'  # store pattern in raw string
+pattern = r'[A-Z]-\d{2,3}\b'  # store pattern in raw string
 
 if re.search(pattern, s):  # search returns True on match
     print("Found pattern.")

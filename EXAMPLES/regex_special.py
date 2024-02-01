@@ -9,7 +9,7 @@ voluptate velit esse cillum dolore U901 eu fugiat nulla pariatur.
 Excepteur sint occaecat A-110 cupidatat non proident, sunt in H-332 culpa qui 
 officia deserunt Y-45 mollit anim id est laborum"""
 
-pattern = r'(?P<letter>[A-Z])-(?P<number>\d{2,3})'  # Use (?<NAME>...) to name groups
+pattern = r'(?P<letter>[A-Z])(?:-)(?P<number>\d{2,3})'  # Use (?<NAME>...) to name groups
 
 for m in re.finditer(pattern, s):
     print(m.group('letter'), m.group('number'))  # Use m.group(NAME) to retrieve text
