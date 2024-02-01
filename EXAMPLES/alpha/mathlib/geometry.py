@@ -1,6 +1,8 @@
 """
 General geometry-related functions
 
+MORE DESC HERE 
+
 Syntax:
 
 area = circle_area(diameter)

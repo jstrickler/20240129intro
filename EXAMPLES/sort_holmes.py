@@ -13,8 +13,7 @@ books = [
 
 
 def strip_article(title):  # create function which takes element to compare and returns comparison key
-    title = title.lower()
-    for article in 'a ', 'an ', 'the ':
+    for article in 'A ', 'An ', 'The ':
         if title.startswith(article):
             title = title[len(article):]  # remove article by using a slice that starts after article + space`
             break
