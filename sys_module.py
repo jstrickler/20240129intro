@@ -1,0 +1,16 @@
+import sys
+
+print(f"{sys.argv = }")
+print(f"{sys.prefix = }")
+print(f"{sys.executable = }")
+print()
+print(f"{sys.version = }")
+print(f"{sys.version_info = }")
+print(f"{sys.version_info.major = }")
+print()
+print(f"{sys.platform = }")
+print()
+print(dir(sys))
+print()
+print(sys.stdlib_module_names)
+print(len(sys.stdlib_module_names))

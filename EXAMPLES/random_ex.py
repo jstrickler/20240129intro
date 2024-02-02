@@ -7,7 +7,7 @@ fruits = ["pomegranate", "cherry", "apricot", "date", "apple",
 "elderberry", "peach", "blueberry", "lychee", "grape"]
 
 
-for i in range(10):
+for _ in range(3):
     print("random():", random.random())
     print("randint(1, 2000):", random.randint(1, 2000))
     print("randrange(1, 5):", random.randrange(1, 10))
